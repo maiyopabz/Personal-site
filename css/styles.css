@@ -47,7 +47,7 @@ p {
 .bottom-cloud {
     position: absolute;
     left: 250px;
-    bottom: 390px;
+    bottom: 370px;
 }
 
 .top-cloud {
@@ -57,6 +57,7 @@ p {
     
 }
 .primary {
+    position: relative;
     width: 550px;
     height: 350px;
     border-radius: 360px;
