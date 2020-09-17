@@ -1,0 +1,24 @@
+{
+  "name": "personal-site",
+  "version": "1.0.0",
+  "description": "Creating my personal portfolio. Using pure html and css.",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "lite-server": "^2.5.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maiyopabz/Personal-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maiyopabz/Personal-site/issues"
+  },
+  "homepage": "https://github.com/maiyopabz/Personal-site#readme"
+}

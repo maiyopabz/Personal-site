@@ -26,17 +26,22 @@ p {
 }
 
 .top-container {
-    background-color: #d6e0f0;
+    background-color: #f1f3f8;
     position: relative;
     padding-top: 100px;
 
 }
 
 .middle-container {
+    background-color: #d6e0f0;
+   
+    
+    
    
 }
 
 .bottom-container {
+    padding-bottom: 100px;
     
 }
 
@@ -62,3 +67,5 @@ p {
     height: 350px;
     border-radius: 360px;
 }
+
+
