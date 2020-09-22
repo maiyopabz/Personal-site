@@ -52,6 +52,11 @@ a{
     color: #EAF6F6;
   }
 
+#carouselExampleIndicators {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 .top-paragraph {
     position: relative;
     color: #52616b;
@@ -127,6 +132,8 @@ a{
   }
 
 .contact-me {
+
+    
     width: 40%;
     margin: 40px auto 60px; 
 }
@@ -176,4 +183,3 @@ a{
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
   }
-  
