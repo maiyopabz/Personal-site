@@ -133,34 +133,32 @@
     <h3>Let's make something awesome together!</h3>
 
 
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
-      data-whatever="@getbootstrap" id="contact">Contact Me</button>
-
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-      aria-hidden="true">
-      <div class="modal-dialog" role="document">
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+      CONTACT ME
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+            <h5 class="modal-title" id="exampleModalLongTitle">Maiyo Pabroquez</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-            <form>
-              <div class="form-group">
-                <label for="recipient-name" class="col-form-label">Your Email:</label>
-                <input type="text" class="form-control" id="recipient-name">
-              </div>
-              <div class="form-group">
-                <label for="message-text" class="col-form-label">Message:</label>
-                <textarea class="form-control" id="message-text"></textarea>
-              </div>
-            </form>
+            <ul>
+            <a href="mailto:maiyopabz@gmail.com"> <i class="fas fa-at fa-2x"></i></a>
+            <a href="https://github.com/maiyopabz?tab=repositories"> <i class="fab fa-github fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/maiyo-pabroquez-5b8864161/"> <i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="tel:+1630-518-8265"> <i class="fas fa-phone-volume fa-2x"></i></a>
+            
+          </ul>
+            
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Send message</button>
           </div>
         </div>
       </div>
