@@ -52,10 +52,21 @@ a{
     color: #EAF6F6;
   }
 
+#navbar {
+  font-weight: 700;
+}
+
 #carouselExampleIndicators {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
+
+
+#projects span {
+  font-weight: 600;
+}
+
 
 .top-paragraph {
     position: relative;
@@ -87,18 +98,9 @@ a{
     text-decoration: underline;
 }
 
-.bottom-cloud {
-    position: absolute;
-    left: 250px;
-    bottom: 300px;
     
     
-}
 
-.top-cloud {
-    position: absolute;
-    right: 300px;
-    top: 40px;
     
 }
 .top-primary {
@@ -135,15 +137,14 @@ a{
 
 .contact-me {
 
-    
     width: 40%;
     margin: 40px auto 60px; 
 }
 
   .contact-img {
-    width: 25%;
+    width: 10%;
     float: left;
-    margin-right: 30px;
+    text-align: center;
   }
 
 
@@ -151,6 +152,7 @@ a{
 
   .card img {
     height: 300px;
+    width: 480px;
   }
 
   .card {
@@ -172,6 +174,7 @@ a{
  .card:nth-child(even) img {
    order: 2;
  }
+
 
  .card btn. {
    display: inline-block;
