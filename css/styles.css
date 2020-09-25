@@ -100,9 +100,6 @@ a{
 
     
     
-
-    
-}
 .top-primary {
    position: relative;
     width: 180px;
@@ -114,12 +111,7 @@ a{
     background-color:white;
 }
 
-.projects-row {
-    background-color: ;
-    width: 50%;
-    margin: 100px auto 100px auto;
-    text-align: left; 
-}
+
 .projects{
     background-color: ;
     width: 50%;
@@ -129,7 +121,7 @@ a{
 
 .intro {
     font-size: medium;
-    width: 30%;
+    width: 18rem;
     margin: auto;
     padding-bottom: 50px;
     
@@ -151,11 +143,7 @@ a{
 
 
   .card img {
-  padding-top: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
-  width: 400px;
-  height: auto;
+  width: 350px;
   }
 
   .card {
@@ -220,7 +208,7 @@ a{
     text-decoration: none;
   }
 
-  @media(max-width: 300px) {
+  @media(max-width: 600px) {
     .card {
       display: block;
     }
