@@ -8,25 +8,16 @@ body {
 h1 {
     color: #52616b;
     font-size: 5.625rem;
-    font-family: 'Sacramento', cursive;
+    font-family: 'Monoton', cursive;
     margin: 50px auto 0 auto;
 
 }
-h2 {
+h2, h3 {
     color: #52616b;
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     font-weight: normal;
     padding-bottom: 10px;
-    
-
-
-}
-
-h3 {
-    color: #52616b;
-    font-family: 'Montserrat', sans-serif;
-
     
 }
 
@@ -55,12 +46,6 @@ a{
 #navbar {
   font-weight: 700;
 }
-
-#carouselExampleIndicators {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
 
 
 #projects span {
@@ -104,6 +89,8 @@ a{
    position: relative;
     width: 180px;
     height: 180px;
+    box-shadow: 0px 10px 15px rgba(56, 75, 108, 0.2);
+
 }
 
 
@@ -131,14 +118,17 @@ a{
 
     width: 40%;
     margin: 40px auto 60px; 
+    
 }
 
   .contact-img {
     width: 10%;
     float: left;
     text-align: center;
-  }
+    
 
+
+  }
 
 
 
@@ -152,6 +142,7 @@ a{
     grid-gap: 2rem;
     background: #f1f1f1;
     margin-bottom: 2rem;
+    box-shadow: 0px 10px 15px rgba(56, 75, 108, 0.2);
   }
 
   .card h3 {
