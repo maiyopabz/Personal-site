@@ -38,6 +38,7 @@ hr {
   border-bottom: none;
   width: 2%;
   margin: 50px auto;
+  padding-top: 5;
 }
 a:hover {
   color: #EAF6F6;
@@ -138,6 +139,7 @@ padding-right: 25px;
 }
 
 
+
 .contact-img {
 width: 7%;
 padding-bottom: 50px;
@@ -214,6 +216,7 @@ text-align: center;
   background-image: linear-gradient(to bottom, #83b8e9, #83b8e9);
   text-decoration: none;
 }
+
 
 @media(max-width: 640px) {
   .card {
