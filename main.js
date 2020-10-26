@@ -1,6 +1,6 @@
 
-$(document).this(function () {
-    $('.send-btn').this(function (event){
+$(document).ready(function () {
+    $('.send-btn').click(function (event){
         console.log('Click button')
 
     })
